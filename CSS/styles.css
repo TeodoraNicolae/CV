@@ -1,0 +1,138 @@
+
+body{
+    text-align: center;
+    margin: 0px;
+}
+
+h1{
+    margin:  0 auto 0 auto;
+    line-height: 1em;
+}
+
+h2{
+    color: #11999e;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color:grey;
+    border-width: 5px;
+    width: 3%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.top{
+    background-color: #e4f8f5;
+    position: relative;
+    padding-top: 200px;
+    font-family: 'Sacramento', cursive;
+    font-size: 2.19rem;
+}
+.profilephoto{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 270px;
+    height: 270px;
+}
+
+.middle{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.skill-left{
+    text-align: left;
+    margin: 50px auto 50px auto;
+    width: 50%;
+}
+
+.skill-right{
+    text-align: right;
+    margin: 50px auto 50px auto;
+    width: 50%;
+}
+
+.skill-photo{
+    width: 35%;
+}
+
+.skill-gif{
+    align-content: center;
+    width: 25%;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.gif{
+    width: 85%;
+}
+
+
+.app{
+    width: 85%;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.mid{
+    font-family: 'Merriweather', serif;
+
+}
+
+.bot{
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #66bfbf;
+    height: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-weight: 900;
+    line-height: 5px;
+}
+
+.contact{
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 70px
+}
+
+.bot-cloud{
+    position: absolute;
+    left: 300px;
+    top: 250px;
+}
+
+.button {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Brush Script MT;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #11999E;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .button:hover {
+    background: #1E62D0;
+    border: solid #337FED 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
