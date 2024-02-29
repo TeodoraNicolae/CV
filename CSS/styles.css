@@ -42,12 +42,33 @@ a {
     height: 270px;
 }
 
+.background {
+    width: 100%;
+}
+
+@media (max-width: 368px) {
+    .middle {
+        width: 80%;
+    }
+}
+
+@media (min-width: 368px) and (max-width: 768px) {
+    .middle {
+        width: 70%;
+    }
+}
+
+@media (min-width: 769px) {
+    .middle {
+        width: 60%;
+    }
+}
+
 .middle {
     display: table;
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
 
 .middle .time {
@@ -70,6 +91,12 @@ a {
     width: 15%;
 }
 
+@media (max-width: 768px) {
+    .skill-photo {
+        width: 30%;
+    }
+}
+
 .skill-gif {
     align-content: center;
     width: 15%;
@@ -77,14 +104,43 @@ a {
     margin-bottom: auto;
 }
 
+@media (max-width: 768px) {
+    .skill-gif {
+        width: 30%;
+    }
+}
+
 .gif {
     width: 50%;
 }
 
+@media (max-width: 768px) {
+    .gif {
+        width: 80%;
+    }
+}
+
+@media (min-width: 769px) {
+    .gif {
+        width: 50%;
+    }
+}
+
 .app {
-    width: 50%;
     margin-left: auto;
     margin-bottom: auto;
+}
+
+@media (max-width: 768px) {
+    .app {
+        width: 80%;
+    }
+}
+
+@media (min-width: 769px) {
+    .app {
+        width: 50%;
+    }
 }
 
 .mid {
@@ -121,10 +177,34 @@ a {
     transform: scaleX(-1);
 }
 
+@media (max-width: 768px) {
+    .top-cloud {
+        height: 10%;
+    }
+}
+
+@media (min-width: 769px) {
+    .top-cloud {
+        height: 15%;
+    }
+}
+
 .bot-cloud {
     position: absolute;
     left: 20%;
     top: 65px;
+}
+
+@media (max-width: 768px) {
+    .bot-cloud {
+        height: 10%;
+    }
+}
+
+@media (min-width: 769px) {
+    .bot-cloud {
+        height: 15%;
+    }
 }
 
 .button {
